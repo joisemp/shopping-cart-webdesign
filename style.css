@@ -1,0 +1,68 @@
+body {
+  margin-top: 10px;
+}
+
+.label-1 {
+  display: flex;
+}
+.label-1 .img {
+  width: 80px;
+  height: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+.label-1 .anchor {
+  color: black;
+  margin-right: 10px;
+}
+.label-1 .model {
+  color: rgba(50, 50, 50, 0.61);
+}
+
+#font {
+  font-weight: 600;
+}
+
+.search-bar {
+  display: flex;
+  width: 80%;
+}
+.search-bar .search {
+  width: 100%;
+  border: 1px solid black;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  margin-left: 66px;
+  padding: 8px;
+}
+
+.apply-button {
+  width: 20%;
+  background-color: black;
+  color: aliceblue;
+  padding: 8px;
+  border: none;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.apply-button:hover {
+  background-color: rgba(19, 19, 19, 0.452);
+  transition: 3s;
+}
+
+.order-button {
+  width: 80%;
+  padding: 8px;
+  margin-left: 5%;
+  background-color: black;
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+}
+
+.order-button:hover {
+  background-color: rgba(19, 19, 19, 0.452);
+  transition: 3s;
+}/*# sourceMappingURL=style.css.map */
