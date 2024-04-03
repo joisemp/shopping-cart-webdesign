@@ -2,6 +2,10 @@ body {
   margin-top: 10px;
 }
 
+.container {
+  max-width: 535px;
+}
+
 .label-1 {
   display: flex;
 }
